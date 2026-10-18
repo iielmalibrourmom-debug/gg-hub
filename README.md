@@ -1,5 +1,7 @@
 # GG HUB
 
+[Download v0.1.0](https://github.com/iielmalibrourmom-debug/gg-hub/releases/tag/v0.1.0) · [Linux CI](https://github.com/iielmalibrourmom-debug/gg-hub/actions/workflows/ci.yml)
+
 GG HUB 是面向 Linux 的罗技鼠标、键盘配置工具，参考 G HUB 的页面结构，使用独立实现与素材。当前重点是驱动实际支持的 DPI、回报率、按键、灯光、板载配置、键盘选项及电量，并提供本地配置文件、宏和 X11 自动切换。**设计预览不连接硬件；目录里出现某型号也不代表 Linux 已支持。** 安装方法见下文；目前没有实物验证结果，也不保证所有型号或原版全部功能。
 
 An independent Linux desktop configurator for Logitech gaming mice and keyboards. Electron and React provide the interface; a local Python worker talks to **ratbagd** and the **Solaar CLI**. Controls come from the connected device's driver capabilities, rather than a list of marketing specifications.
@@ -56,9 +58,9 @@ Package names were checked against the official Arch package pages: [python-dbus
 When a tagged release build succeeds, its release assets contain an AppImage, a Linux tar archive, and `SHA256SUMS`. Verify the downloaded assets against that file, then launch the AppImage:
 
 ```sh
-sha256sum -c SHA256SUMS
-chmod +x GG-HUB-0.1.0-x64.AppImage
-./GG-HUB-0.1.0-x64.AppImage
+sha256sum --ignore-missing -c SHA256SUMS
+chmod +x GG-HUB-0.1.0-x86_64.AppImage
+./GG-HUB-0.1.0-x86_64.AppImage
 ```
 
 The tar archive contains a `gg-hub` executable and its adjacent resources; keep them together. Both formats bundle Electron and the Python worker **source**, but require a host `python3` with `dbus-next` and, for macros, `evdev`. They also require the appropriate ratbagd/Solaar backend. On Arch, install `python python-dbus-next` plus the optional backend packages above. AppImage may require Arch's `fuse2`; `--appimage-extract` is available when a FUSE mount is unavailable.
