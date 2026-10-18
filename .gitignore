@@ -1,0 +1,16 @@
+node_modules/
+dist/
+release/
+__pycache__/
+*.pyc
+.venv/
+test-results/
+playwright-report/
+*.log
+.env
+local-reference/
+.DS_Store
+packaging/arch/gg-hub-*.tar.gz
+packaging/arch/src/
+packaging/arch/pkg/
+packaging/arch/*.pkg.tar.*

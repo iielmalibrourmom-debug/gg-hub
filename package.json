@@ -1,0 +1,65 @@
+{
+  "name": "gg-hub",
+  "version": "0.1.0",
+  "description": "A Linux desktop configurator for Logitech gaming mice and keyboards",
+  "private": true,
+  "license": "MIT",
+  "author": "GG HUB contributors",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "electron .",
+    "preview:desktop": "electron . --preview",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.cjs",
+    "test:ui": "playwright test",
+    "dist:linux": "npm run build && electron-builder --linux AppImage tar.gz --publish never"
+  },
+  "dependencies": {
+    "lucide-react": "1.59.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "electron": "44.9.0",
+    "electron-builder": "26.15.3",
+    "prettier": "3.9.10",
+    "vite": "8.3.4"
+  },
+  "build": {
+    "appId": "io.github.gghub",
+    "productName": "GG HUB",
+    "artifactName": "GG-HUB-${version}-${arch}.${ext}",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "backend/gg_hub",
+        "to": "backend/gg_hub",
+        "filter": [
+          "**/*.py"
+        ]
+      }
+    ],
+    "linux": {
+      "category": "Utility",
+      "icon": "packaging/gg-hub.png",
+      "executableName": "gg-hub",
+      "desktop": {
+        "entry": {
+          "Name": "GG HUB",
+          "Comment": "Configure Logitech gaming devices on Linux",
+          "Categories": "Settings;HardwareSettings;Utility;"
+        }
+      }
+    }
+  }
+}

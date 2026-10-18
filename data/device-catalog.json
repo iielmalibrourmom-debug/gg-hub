@@ -1,0 +1,4569 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "generatedAt": "2026-10-18T07:01:05.148Z",
+    "sourceProduct": "Logitech G HUB",
+    "sourceVersion": "2026.6.981214",
+    "sourceBuildId": "876190",
+    "extractorVersion": "1.0.0",
+    "sourceDigestAlgorithm": "sha256(relative-path + NUL + file-sha256 + LF; sorted)",
+    "sourceDigest": "a6736591bab8a46bb92ba0d021bb00845f317f6adf2201733105f84b253262d2",
+    "sourceIndexSha256": "56892d959d242828e4546183694497bae6994b23bd29a386e98c102bf744630c",
+    "classification": "Static catalog facts; catalogKnown is not Linux hardware support.",
+    "hardwareValidatedCount": 0,
+    "inputs": [
+      {
+        "file": "devices.json",
+        "size": 4256,
+        "sha256": "56892d959d242828e4546183694497bae6994b23bd29a386e98c102bf744630c",
+        "status": "index"
+      },
+      {
+        "file": "devices/devices_0001.json",
+        "size": 69547,
+        "sha256": "66e89481a32ceb0a26484a36b9c8402b63f13cfb9552d2e710de879e212136a5",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0002.json",
+        "size": 189382,
+        "sha256": "d6bd3c12481481787f649bf4e070b307a525f25f05c48216f30e5f8fd0684621",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0003.json",
+        "size": 22061,
+        "sha256": "e0f7a9cfd701e5c6b2f8b804dce09ebb7ed29b6841765b8abee3adfc1cb63fbd",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0004.json",
+        "size": 23720,
+        "sha256": "def05bbd22178704cdaeefc196b8086d467f11b3a26282513d46bf238fd4c071",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0005.json",
+        "size": 1948,
+        "sha256": "b62946c166ab6400e361bb948a506372f8af6425812a84fc1b20c7b323328b0f",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0006.json",
+        "size": 602,
+        "sha256": "1df86aecfd2df33afaf251982c7c80f253024d57f221c1897d3d7755dc236b85",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0007.json",
+        "size": 1957,
+        "sha256": "bd9f25765af37a0e62bd1b845603d9c8dff74c28f22b5f008b038cd56a6087fe",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0008.json",
+        "size": 1110,
+        "sha256": "dd991c088c65ebf5f1df6da17c19dea066cc391cce046202a6d719bcf8da688c",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0009.json",
+        "size": 6775,
+        "sha256": "14636a7cb3b62363886aa5ffe47ce67b817c68ae930cf40c1744915179bd1a74",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0010.json",
+        "size": 6642,
+        "sha256": "92ba514c094fe5a9105766868448abc5491c1580b64af4c990634efbc5f33887",
+        "status": "parsed"
+      },
+      {
+        "file": "devices/devices_0011.json",
+        "size": 843,
+        "sha256": "55ad920758f217faae967a27f4e0dedb5cd14088043612e96bf9f8acec434f3b",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0012.json",
+        "size": 1328,
+        "sha256": "009bb0a34c8bc286bbf5d7322d54d38510810c8581bbce7d065f6948c0672cc0",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0013.json",
+        "size": 18459,
+        "sha256": "046a11748d9e79b8babede7b43dc5f3e33783c220afada1c0ab8a99502f5ff78",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0014.json",
+        "size": 18177,
+        "sha256": "6e1c66810bc5d0808ee7af54c66be45278e4556886ba7948b6ce311ade40c461",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0015.json",
+        "size": 2583,
+        "sha256": "770b7f6bdc916744bcb5cef0821f903667330b479f2de4a62f9a73b9c2983918",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0016.json",
+        "size": 6616,
+        "sha256": "e6654e5c968a4f93621a8c11d8499bdb98755174c81d4d38f0b7b3af711b4477",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0017.json",
+        "size": 32426,
+        "sha256": "66c6f624cc8f713d7292e2263c3baf7fd69d6d2afc515d9f1b87a940cd72f0a9",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0018.json",
+        "size": 3281,
+        "sha256": "0666748a28ec178e98c4cabb6bac02927ea9cb0eca2f2ea1e44e7d941a769f69",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0019.json",
+        "size": 5562,
+        "sha256": "47f33eb287a1b347665a3eacc8971c2c53f05d81faaa8b93c2ca758716bcc915",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0021.json",
+        "size": 3389,
+        "sha256": "f7d1d497f890fbb27f77a2bbb29b91e0d82cb8bb72df2e573a543beb73191c46",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0022.json",
+        "size": 2152,
+        "sha256": "3185ec198793ca5012451ad1458b4de1ed4f2b939c54785eade1906fd680b10d",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0023.json",
+        "size": 7092,
+        "sha256": "5829f813141d34dba01768d6964fb051cc9be1d5e67555105775b1d4b7c3a534",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0024.json",
+        "size": 8306,
+        "sha256": "990070c588b9bf9123a15085ae13b740386136287fbf0f12008a00e1dc240ff7",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0025.json",
+        "size": 4838,
+        "sha256": "3338510f11dba1a7daa8506792ca938a8452d7554488b7ebc7c7e433e3c787a8",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0026.json",
+        "size": 3627,
+        "sha256": "3b56b6641c7948b134c62b9d0186ba1136ec12ece88a6f1a8702102fbebd8442",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0027.json",
+        "size": 7882,
+        "sha256": "5aae3f8959d7dd2caec1745820610f0bc7ee8161e990b4345835d921c11c3eb7",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0028.json",
+        "size": 27081,
+        "sha256": "a4fa4d8000bf6de8adde0a98b18d75a23bdfed9ef40beed2abaeaf431f22fc63",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0029.json",
+        "size": 4209,
+        "sha256": "e09945debcb78d44f6efe6afc5139c98693951a3b783318e4753f44d6a256c3f",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0030.json",
+        "size": 12493,
+        "sha256": "51d0b619b4862a213f2dd11ea4fbdd6409870e0c1cf572d0711a2311d22d5faa",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0031.json",
+        "size": 11985,
+        "sha256": "1979846943b2b62bb0c0d870c50ec608d5a941f9d02b9f1cb7c7c95fc34a243d",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0032.json",
+        "size": 8108,
+        "sha256": "a94b881ec19d6ce0355d091f2b708b7f06cf7013e4aeef565ae247777d245df6",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0033.json",
+        "size": 6723,
+        "sha256": "3a5c9314191423d609bc42b5a6cf5cb1015f37b0d158b93341b1885a43936a01",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0034.json",
+        "size": 8102,
+        "sha256": "45dde3b331ed71a746146d5f1f35fb63283c36bccbc3c84ba501d07428981ba8",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0035.json",
+        "size": 3116,
+        "sha256": "80c47bb2d47a31f912e24031904512a15a881278fcf2e49496ed18abe372c882",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0036.json",
+        "size": 6596,
+        "sha256": "0ce41bba1157b2692a72acafb7fe236863e6dbba204829c52ff810ec576ac6d7",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0037.json",
+        "size": 6062,
+        "sha256": "a988f29b5a22a50d2f5de090760d94df8f1829b328af997aa3aa086e2a4e2122",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0038.json",
+        "size": 6357,
+        "sha256": "57db7c569282e2b773b50a564a8ce8f120c6fcf787fb88b2b027d853974f3c07",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0039.json",
+        "size": 4326,
+        "sha256": "badd52d160f2358c3f931a85fc07435f8e5afe0211dc517a27c784af30b9d846",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0042.json",
+        "size": 8665,
+        "sha256": "43b815b77c713d2bf29bd36c14706abe9cde46ec7293310c0048cf2d0260924d",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0040.json",
+        "size": 28449,
+        "sha256": "249f41e4544a483c4a98539ead69e5b8d75292f98d51581ff77086a5a744202b",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0043.json",
+        "size": 10364,
+        "sha256": "e36603d33aed56b4d79becbc2748065c3f7b11128fb79ec665fd2f1f565a908f",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0044.json",
+        "size": 3929,
+        "sha256": "a2bfdef3dfc1d0e35ffa8c185a885d86d3ee1bf5e28e8efcf7186ccd283288f2",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0045.json",
+        "size": 14606,
+        "sha256": "419d85b20342c5e74c5fb157a561962ecd5874f9b3609b9713fd88ee7e20ab73",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0046.json",
+        "size": 8789,
+        "sha256": "c3c3956061add3e1ff31e3e74de1d937fe958468c193ce8e299d4f3558aa36fd",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0047.json",
+        "size": 5400,
+        "sha256": "78c98aa39b5289ac68f6719f517ada5985603d1c600169d5e1fbac20610ea5e3",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0048.json",
+        "size": 4318,
+        "sha256": "016f23bd5de6aff1aca5fc036b6adaffd7aaf271c60da4e41b609128b527dfad",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0049.json",
+        "size": 3591,
+        "sha256": "48bf5237265d3210e18dc83fb85d3eb66789585dc12bd79296c9f3d5c99fef5d",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0050.json",
+        "size": 6884,
+        "sha256": "beeee5613f0196d119e1b4a1414febeb3313645cfb4ff00eb8bc964f0b97d185",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0051.json",
+        "size": 6155,
+        "sha256": "70c85d89f98968ca0a3300ff1057c631727ae2581a3046e4a297b83471e0befa",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0052.json",
+        "size": 15352,
+        "sha256": "be57005d2b03a51cd174729891789d0a6df58d1aeb9e2b06ba88721293b221c9",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0053.json",
+        "size": 15352,
+        "sha256": "76da93209b8d2723cf2688eb16c06aaefac5a4ba51a1bfe8277daa6485620ec1",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0054.json",
+        "size": 6582,
+        "sha256": "f64643da7cedf8988095a8f3c334209e68a6839316d6afb3505019f11c4ff66b",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0055.json",
+        "size": 3111,
+        "sha256": "7a405070feec78e4b33fe7e2ba45fd04f498b4bb1f79113ddc795bd14f4d751a",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0056.json",
+        "size": 10096,
+        "sha256": "a07d9680e57f4aa9e4e246957cf6961ba4563c3274f798f8c50afa44f83faa79",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0057.json",
+        "size": 3673,
+        "sha256": "92b6d3f4d60290fda98a0616b218cdaefd1c3caec5c3e2c9eb88fc6ee4e9fbd0",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0058.json",
+        "size": 7940,
+        "sha256": "7c84f50ac8a83daf8dbbfe22e354c1868aedeb45b02a28f116a6b3226434c491",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0059.json",
+        "size": 3680,
+        "sha256": "a5c3dc61722898eeeedf07b29e7ce1bdaed2b4885d20a4f8ced51a4131d22790",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0060.json",
+        "size": 4500,
+        "sha256": "8e84e8ce71084bc8feee2ce3a1b23ab644072326fb98f2952534b8e18c5beb54",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0061.json",
+        "size": 3280,
+        "sha256": "1577710bc9c419605c6b7b7348dafb078b9bae535f56b0a413388039cdc4cf0b",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0062.json",
+        "size": 7412,
+        "sha256": "88129a81cb969e9df4a8c8c0c6a205ac39750f3a75104eca9bf9a964418f59bc",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0063.json",
+        "size": 7471,
+        "sha256": "52d1f1490902c7566330dda3823ecc05a69396c90321c830a6bdaeaff4cd608e",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0064.json",
+        "size": 5584,
+        "sha256": "df783a380c347fcae2ea22cd9e2fab144481da9917a1a2a2ea9500dce532f525",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0065.json",
+        "size": 6721,
+        "sha256": "fe6cb18eb7308be9cfcf2eedeca53aaef8840daa1420c3fd66672e72ff2919c5",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0066.json",
+        "size": 4127,
+        "sha256": "e3dccd4b7bbd4b7b5fbb372bb7f9bb70eabc961eb2692d7b900e8361546a0128",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0067.json",
+        "size": 15068,
+        "sha256": "6ea87f83acd5628701f30b944f6097bddc06bd8be3605a5d6af76e92908e544e",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0068.json",
+        "size": 15094,
+        "sha256": "ed93aa305d0c894390a1122c654e16035138dd4a4f814f36cf9787383442b74b",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0069.json",
+        "size": 14869,
+        "sha256": "a167b8108942da81467c8a0af804cb6b80e516952046e5ef43f7dfd7c05928ce",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0070.json",
+        "size": 14843,
+        "sha256": "71eb6667b6b6ef93cabc02cfbcaca87d3a4a6184b62d9ec101fd26b506125c43",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0071.json",
+        "size": 1825,
+        "sha256": "5420ead42e917ee34092137bb0f10f122006b290ace3ff2f3a8dbf79b4d95a02",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0072.json",
+        "size": 6853,
+        "sha256": "e75a264de51906af86bb5ea3f152156d4a89452a5ebd512eef302ae0e365d786",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0073.json",
+        "status": "missing"
+      },
+      {
+        "file": "devices/devices_0076.json",
+        "size": 993,
+        "sha256": "8700db5b8ed4bdec7452768e02f6cc3cbbb516aa2d27c3d1f989b24a88793a92",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0077.json",
+        "size": 4486,
+        "sha256": "e7477049ee80d6f6ea1258cec2aadd23f91d8fbce20c2f2b5b4943c45352f7fa",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0078.json",
+        "size": 4513,
+        "sha256": "c66e3763db0988f052a65bbb626401ea967d9f37339519b2cea4103e5466e071",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/devices_0079.json",
+        "size": 3758,
+        "sha256": "4490b0587adec04f5f88f90bf11c673354cadafbf305e7f1f65a8c4f1f112e7c",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/wheels_win.json",
+        "size": 35849,
+        "sha256": "0c193e8ec4ce1534facdffdd3dc0602850a6b7632fd8c9c9f7d8a68c344554a2",
+        "status": "opaque"
+      },
+      {
+        "file": "devices/microphones.json",
+        "size": 25241,
+        "sha256": "5445250b0a19162d7e9f9c21de273993fa731e4a01f0f8e300099094e4e4f1c1",
+        "status": "parsed"
+      }
+    ]
+  },
+  "coverage": {
+    "indexedFiles": 77,
+    "parsedFiles": 7,
+    "opaqueFiles": [
+      {
+        "file": "devices/devices_0003.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0004.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0008.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0009.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0011.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0012.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0013.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0014.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0015.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0016.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0017.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0018.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0019.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0021.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0022.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0023.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0024.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0025.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0026.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0027.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0028.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0029.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0030.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0031.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0032.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0033.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0034.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0035.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0036.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0037.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0038.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0039.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0042.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0040.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0043.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0044.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0045.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0046.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0047.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0048.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0049.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0050.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0051.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0052.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0053.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0054.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0055.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0056.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0057.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0058.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0059.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0060.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0061.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0062.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0063.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0064.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0065.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0066.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0067.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0068.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0069.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0070.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0071.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0072.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0076.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0077.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0078.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/devices_0079.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      },
+      {
+        "file": "devices/wheels_win.json",
+        "reason": "Non-JSON envelope; decoding not implemented.",
+        "envelopeMagic": "21052120",
+        "headerFields": [
+          "file-sha",
+          "key-id"
+        ]
+      }
+    ],
+    "missingFiles": [
+      "devices/devices_0073.json"
+    ],
+    "invalidFiles": [],
+    "parsedDeviceDeclarations": 70,
+    "observedTypes": {
+      "MOUSE": 28,
+      "KEYBOARD": 14,
+      "HEADSET": 15,
+      "CHARGE_PAD": 1,
+      "CAMERA": 5,
+      "SPEAKER": 1,
+      "HID_DEVICE": 1,
+      "MICROPHONE": 5
+    },
+    "selectedTypes": [
+      "MOUSE",
+      "KEYBOARD"
+    ],
+    "catalogKnownCount": 42,
+    "complete": false
+  },
+  "devices": [
+    {
+      "modelId": "g213",
+      "name": "G213",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c336"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c336"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g310",
+      "name": "G310",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c32d"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aab3"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aab3",
+        "046d_c32d"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport"
+      ],
+      "settings": {
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_MONO_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g410",
+      "name": "G410",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c330"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aabc"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aabc",
+        "046d_c330"
+      ],
+      "capabilities": [
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g413",
+      "name": "G413",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c33a"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c33a"
+      ],
+      "capabilities": [
+        "fnInversion",
+        "inputSupport",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "fnInversion": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_MONO_ZONAL",
+        "perKeyLighting": false
+      },
+      "variants": [
+        {
+          "modelId": "g413_ext1",
+          "name": "G413 Silver",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g512_se",
+      "name": "G512",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c342"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c342"
+      ],
+      "capabilities": [
+        "fnInversion",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "fnInversion": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF",
+          "RIPPLE"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING",
+              "RIPPLE"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g513",
+      "name": "G513",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c33c"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aadc"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aadc",
+        "046d_c33c"
+      ],
+      "capabilities": [
+        "fnInversion",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "reportHidControls"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "fnInversion": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF",
+          "RIPPLE"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING",
+              "RIPPLE"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g512_ext10",
+          "name": "G512",
+          "extendedModel": 10
+        },
+        {
+          "modelId": "g512_ext3",
+          "name": "G512",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "g512_ext4",
+          "name": "G512",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "g512_ext6",
+          "name": "G512",
+          "extendedModel": 6
+        },
+        {
+          "modelId": "g512_ext8",
+          "name": "G512",
+          "extendedModel": 8
+        },
+        {
+          "modelId": "g513_ext1",
+          "name": "G513 Carbon Linear",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "g513_ext2",
+          "name": "G513 Silver Tactile",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "g513_ext5",
+          "name": "G513 Carbon GX Blue",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g513_ext7",
+          "name": "G513 Carbon GX Brown",
+          "extendedModel": 7
+        },
+        {
+          "modelId": "g513_ext9",
+          "name": "G513 Carbon GX Red",
+          "extendedModel": 9
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g610",
+      "name": "G610",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c338"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c333"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aacd"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aacd",
+        "046d_c333",
+        "046d_c338"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_MONO_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g613",
+      "name": "G613",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_4065"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aacd"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4065",
+        "046d_aacd"
+      ],
+      "capabilities": [
+        "gkeyLayout",
+        "hasBatteryStatus",
+        "inputSupport",
+        "receiverPairing",
+        "wirelessReportRate"
+      ],
+      "settings": {
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "receiverPid": "50493",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "wirelessReportRate": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g810",
+      "name": "G810",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c331"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c337"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aabd"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aacc"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aabd",
+        "046d_aacc",
+        "046d_c331",
+        "046d_c337"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g810_ext1",
+          "name": "G810 Orion Spectrum - Battlefield Edition",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g815",
+      "name": "G815",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c33f"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c33f"
+      ],
+      "capabilities": [
+        "gkeyLayout",
+        "inputSupport",
+        "lightingSupport",
+        "mstateSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "modeState": {
+          "count": 3
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_MODE1",
+          "LAYER_MODE1_G",
+          "LAYER_MODE2",
+          "LAYER_MODE2_G",
+          "LAYER_MODE3",
+          "LAYER_MODE3_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CUSTOM",
+          "CYCLE",
+          "FIXED",
+          "OFF",
+          "RIPPLE"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING",
+              "RIPPLE",
+              "CUSTOM"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g813",
+          "name": "G813",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g813_ext7",
+          "name": "G813",
+          "extendedModel": 7
+        },
+        {
+          "modelId": "g815_ext6",
+          "name": "G815",
+          "extendedModel": 6
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g910",
+      "name": "G910",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c32b"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c335"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c32b",
+        "046d_c335"
+      ],
+      "capabilities": [
+        "gkeyLayout",
+        "inputSupport",
+        "lightingSupport",
+        "mstateSupport"
+      ],
+      "settings": {
+        "modeState": {
+          "count": 3
+        },
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_MODE1",
+          "LAYER_MODE1_G",
+          "LAYER_MODE2",
+          "LAYER_MODE2_G",
+          "LAYER_MODE3",
+          "LAYER_MODE3_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "g915",
+      "name": "G915",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_407c"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c33e"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aae3"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_b354"
+        }
+      ],
+      "interfaceIds": [
+        "046d_407c",
+        "046d_aae3",
+        "046d_b354",
+        "046d_c33e"
+      ],
+      "capabilities": [
+        "gkeyLayout",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "mstateSupport",
+        "onboardProfiles",
+        "presentSplashScreen",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS2",
+          "pairingAction": "ACTION_LONG_PRESS_LIGHTSPEED"
+        },
+        "modeState": {
+          "count": 3
+        },
+        "batteryStatus": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_MODE1",
+          "LAYER_MODE1_G",
+          "LAYER_MODE2",
+          "LAYER_MODE2_G",
+          "LAYER_MODE3",
+          "LAYER_MODE3_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CUSTOM",
+          "CYCLE",
+          "FIXED",
+          "OFF",
+          "RIPPLE"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING",
+              "RIPPLE",
+              "CUSTOM"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g913",
+          "name": "G913",
+          "extendedModel": 5
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "g915_tkl",
+      "name": "G915 TKL",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c343"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_408e"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_b35f"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aafb"
+        }
+      ],
+      "interfaceIds": [
+        "046d_408e",
+        "046d_aafb",
+        "046d_b35f",
+        "046d_c343"
+      ],
+      "capabilities": [
+        "gkeyLayout",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "mstateSupport",
+        "onboardProfiles",
+        "receiverPairing",
+        "reportHidControls"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS2",
+          "pairingAction": "ACTION_LONG_PRESS_LIGHTSPEED"
+        },
+        "modeState": {
+          "count": 3,
+          "timeOut": 5
+        },
+        "batteryStatus": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_MODE1",
+          "LAYER_MODE1_G",
+          "LAYER_MODE2",
+          "LAYER_MODE2_G",
+          "LAYER_MODE3",
+          "LAYER_MODE3_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CUSTOM",
+          "CYCLE",
+          "FIXED",
+          "OFF",
+          "RIPPLE"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING",
+              "RIPPLE",
+              "CUSTOM"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g913_tkl",
+          "name": "G913 TKL",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g913_tkl_white",
+          "name": "G913 TKL",
+          "extendedModel": 11
+        },
+        {
+          "modelId": "g915_tkl_white",
+          "name": "g915_tkl_white",
+          "extendedModel": 9
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "pro_keyboard",
+      "name": "PRO",
+      "type": "KEYBOARD",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c339"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aadc"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aadc",
+        "046d_c339"
+      ],
+      "capabilities": [
+        "fnInversion",
+        "inputSupport",
+        "lightingSupport",
+        "reportHidControls"
+      ],
+      "settings": {
+        "fnInversion": true,
+        "supportedInputCategories": [
+          "G_KEY"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "COLORWAVE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "KEYBOARD_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "pro_keyboard_ext1",
+          "name": "pro_keyboard_ext1",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "pro_keyboard_ext2",
+          "name": "pro_keyboard_ext2",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "pro_keyboard_ext3",
+          "name": "pro_keyboard_ext3",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "pro_keyboard_ext4",
+          "name": "pro_keyboard_ext4",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "pro_keyboard_ext6",
+          "name": "pro_keyboard_ext6",
+          "extendedModel": 6
+        },
+        {
+          "modelId": "pro_keyboard_ext7",
+          "name": "PRO K/DA",
+          "extendedModel": 7,
+          "id": "046d_c339"
+        },
+        {
+          "modelId": "pro_keyboard_ext8",
+          "name": "PRO LOL",
+          "extendedModel": 8
+        },
+        {
+          "modelId": "pro_keyboard_ext9",
+          "name": "pro_keyboard_ext9",
+          "extendedModel": 9
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "g203",
+      "name": "G102",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c084"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c084"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "g203_ext1",
+          "name": "G102",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "g203_ext2",
+          "name": "G203",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "g203_ext3",
+          "name": "G203",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "g203_ext4",
+          "name": "G103",
+          "extendedModel": 4
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g203_lightsync",
+      "name": "G203 LIGHTSYNC",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c092"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c09d"
+        },
+        {
+          "type": "DEVICE",
+          "id": "046d_aafd"
+        },
+        {
+          "type": "DEVICE",
+          "id": "046d_ab28"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aafd",
+        "046d_ab28",
+        "046d_c092",
+        "046d_c09d"
+      ],
+      "capabilities": [
+        "dpiInfoOverride",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "dpiInfo": {
+          "range": {
+            "min": 200,
+            "max": 8000,
+            "steps": 50
+          }
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "dpiRange": {
+          "min": 200,
+          "max": 8000,
+          "steps": 50
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "COLORWAVE",
+          "CYCLE",
+          "DECOMPOSITION",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING",
+              "COLORWAVE",
+              "DECOMPOSITION"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_PER_KEY",
+        "perKeyLighting": true
+      },
+      "variants": [
+        {
+          "modelId": "g203_lightsync_ext1",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "g203_lightsync_ext2",
+          "name": "g203_lightsync_ext2",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "g203_lightsync_ext3",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "g203_lightsync_ext4",
+          "name": "g203_lightsync_ext4",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "g203_lightsync_ext5",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g203_lightsync_ext6",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 6
+        },
+        {
+          "modelId": "g203_lightsync_ext7",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 7
+        },
+        {
+          "modelId": "g203_lightsync_ext8",
+          "name": "G203 LIGHTSYNC",
+          "extendedModel": 8
+        },
+        {
+          "modelId": "g203_lightsync_ext9",
+          "name": "G102 LIGHTSYNC",
+          "extendedModel": 9
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "g302",
+      "name": "G302",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c07f"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aab5"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aab5",
+        "046d_c07f"
+      ],
+      "capabilities": [
+        "dpiInfoOverride",
+        "dpiTableOverride",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "dpiInfo": {
+          "range": {
+            "min": 300,
+            "max": 4000,
+            "steps": 50
+          }
+        },
+        "dpiTable": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 400,
+          "activeDpi": 1600
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "dpiRange": {
+          "min": 300,
+          "max": 4000,
+          "steps": 50
+        },
+        "dpiLevels": [
+          400,
+          800,
+          1600,
+          3200
+        ],
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_MONO_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g303",
+      "name": "G303",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c080"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aab6"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aab6",
+        "046d_c080"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "angleSnapping": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g303_wireless",
+      "name": "G303 SHROUD EDITION",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_409e"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c097"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_ab11"
+        }
+      ],
+      "interfaceIds": [
+        "046d_409e",
+        "046d_ab11",
+        "046d_c097"
+      ],
+      "capabilities": [
+        "dpiIndicatorLed",
+        "hasBatteryStatus",
+        "inputSupport",
+        "onboardProfiles",
+        "receiverPairing",
+        "unifiedBattery"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS2",
+          "pairingAction": "ACTION_POWER_CYCLE",
+          "hasForcePairing": true
+        },
+        "batteryStatus": true,
+        "unifiedBattery": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0007.json"
+      }
+    },
+    {
+      "modelId": "g305",
+      "name": "G305",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_4074"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4074"
+      ],
+      "capabilities": [
+        "dpiIndicatorLed",
+        "hasBatteryStatus",
+        "inputSupport",
+        "onboardProfiles",
+        "receiverPairing",
+        "reportRatesOverride"
+      ],
+      "settings": {
+        "reportRateInfo": {
+          "rates": [
+            1000,
+            500,
+            250,
+            125
+          ]
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "receiverPid": "50495",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "reportRates": [
+          1000,
+          500,
+          250,
+          125
+        ],
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [
+        {
+          "modelId": "g305_ext1",
+          "name": "G304",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "g305_ext10",
+          "name": "G305",
+          "extendedModel": 10
+        },
+        {
+          "modelId": "g305_ext11",
+          "name": "G304",
+          "extendedModel": 11
+        },
+        {
+          "modelId": "g305_ext12",
+          "name": "G305 SE",
+          "extendedModel": 12
+        },
+        {
+          "modelId": "g305_ext13",
+          "name": "G304 SE",
+          "extendedModel": 13
+        },
+        {
+          "modelId": "g305_ext14",
+          "name": "G305",
+          "extendedModel": 14
+        },
+        {
+          "modelId": "g305_ext15",
+          "name": "G304",
+          "extendedModel": 15
+        },
+        {
+          "modelId": "g305_ext16",
+          "name": "G305",
+          "extendedModel": 16
+        },
+        {
+          "modelId": "g305_ext17",
+          "name": "G304",
+          "extendedModel": 17
+        },
+        {
+          "modelId": "g305_ext18",
+          "name": "G305",
+          "extendedModel": 18
+        },
+        {
+          "modelId": "g305_ext19",
+          "name": "G304",
+          "extendedModel": 19
+        },
+        {
+          "modelId": "g305_ext2",
+          "name": "g305_ext2",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "g305_ext3",
+          "name": "G304",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "g305_ext4",
+          "name": "g305_ext4",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "g305_ext5",
+          "name": "G304",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g305_ext6",
+          "name": "g305_ext6",
+          "extendedModel": 6
+        },
+        {
+          "modelId": "g305_ext7",
+          "name": "G304",
+          "extendedModel": 7
+        },
+        {
+          "modelId": "g305_ext8",
+          "name": "G304 K/DA",
+          "extendedModel": 8
+        },
+        {
+          "modelId": "g305_ext9",
+          "name": "G305 K/DA",
+          "extendedModel": 9
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g402",
+      "name": "G402",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c07e"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aab4"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aab4",
+        "046d_c07e"
+      ],
+      "capabilities": [
+        "dpiInfoOverride",
+        "dpiLighting",
+        "dpiTableOverride",
+        "hybridEngine",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "dpiInfo": {
+          "range": {
+            "min": 300,
+            "max": 4000,
+            "steps": 50
+          }
+        },
+        "dpiTable": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 400,
+          "activeDpi": 1600
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "hybridEngine": true,
+        "dpiRange": {
+          "min": 300,
+          "max": 4000,
+          "steps": 50
+        },
+        "dpiLevels": [
+          400,
+          800,
+          1600,
+          3200
+        ],
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_MONO_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g403_wired",
+      "name": "G403",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c083"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c083"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "angleSnapping": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g403_wireless",
+      "name": "G403",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_405d"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_c082"
+        }
+      ],
+      "interfaceIds": [
+        "046d_405d",
+        "046d_c082"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "angleSnapping": true,
+        "batteryStatus": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g403_hero",
+      "name": "G403 HERO",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c08f"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aaf2"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aaf2",
+        "046d_c08f"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "requiresBackupForDfu"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g502_core",
+      "name": "G502",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c07d"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aab3"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aab3",
+        "046d_c07d"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "dpiLighting",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "angleSnapping": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_MONO_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g502_spectrum",
+      "name": "G502",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c332"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c332"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "dpiLighting",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "angleSnapping": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g502_hero",
+      "name": "G502 HERO",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c08b"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aae6"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aae6",
+        "046d_c08b"
+      ],
+      "capabilities": [
+        "dpiLighting",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "requiresBackupForDfu"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "g502_ahri",
+          "name": "g502_ahri",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "g502_akari",
+          "name": "g502_akari",
+          "extendedModel": 6
+        },
+        {
+          "modelId": "g502_kaisa",
+          "name": "g502_kaisa",
+          "extendedModel": 5
+        },
+        {
+          "modelId": "g502_lol",
+          "name": "G502 HERO K/DA",
+          "extendedModel": 3,
+          "id": "046d_c08b"
+        },
+        {
+          "modelId": "g502_pastel_ext7",
+          "name": "g502_pastel_ext7",
+          "extendedModel": 7
+        },
+        {
+          "modelId": "g502_pastel_ext8",
+          "name": "g502_pastel_ext8",
+          "extendedModel": 8
+        },
+        {
+          "modelId": "g502_riot",
+          "name": "G502 HERO LOL",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g502_wireless",
+      "name": "G502 LIGHTSPEED",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c08d"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_407f"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aaef"
+        }
+      ],
+      "interfaceIds": [
+        "046d_407f",
+        "046d_aaef",
+        "046d_c08d"
+      ],
+      "capabilities": [
+        "chargepadCompatible",
+        "dpiLighting",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "g502_wireless_ext1",
+          "name": "g502_wireless_ext1",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "g502_wireless_ext2",
+          "name": "g502_wireless_ext2",
+          "extendedModel": 2
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g600",
+      "name": "G600",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "HIDIO",
+          "id": "HID_046d_c24a_ff800080"
+        },
+        {
+          "type": "HIDIO",
+          "id": "MASKABLE_046d_c24a_00010002"
+        }
+      ],
+      "interfaceIds": [
+        "HID_046d_c24a_ff800080",
+        "MASKABLE_046d_c24a_00010002"
+      ],
+      "capabilities": [
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "disableProfileNaming": true,
+          "profilesAlwaysActive": true,
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "g600_ext1",
+          "name": "G600 MMO Gaming Mouse White",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g602",
+      "name": "G602",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c537"
+        },
+        {
+          "type": "HIDIO",
+          "id": "HID_046d_c537_ff800080"
+        },
+        {
+          "type": "HIDIO",
+          "id": "HID_MOUSE_046d_c537"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c537",
+        "HID_046d_c537_ff800080",
+        "HID_MOUSE_046d_c537"
+      ],
+      "capabilities": [
+        "hasBatteryStatus",
+        "onboardProfiles",
+        "platformDisabled"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "disableProfileNaming": true,
+          "profilesAlwaysActive": true,
+          "supportsOnboardMode": true
+        },
+        "batteryStatus": true,
+        "onboardMode": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g603",
+      "name": "G603",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_406c"
+        }
+      ],
+      "interfaceIds": [
+        "046d_406c"
+      ],
+      "capabilities": [
+        "dpiIndicatorLed",
+        "hasBatteryStatus",
+        "inputSupport",
+        "onboardProfiles",
+        "receiverPairing",
+        "reportRatesOverride"
+      ],
+      "settings": {
+        "reportRateInfo": {
+          "rates": [
+            1000,
+            500,
+            250,
+            125
+          ]
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "reportRates": [
+          1000,
+          500,
+          250,
+          125
+        ],
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g604",
+      "name": "G604 LIGHTSPEED",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_4085"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_b024"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4085",
+        "046d_b024"
+      ],
+      "capabilities": [
+        "dpiIndicatorLed",
+        "hasBatteryStatus",
+        "hostRemovalSupport",
+        "inputSupport",
+        "mouseButtonControls",
+        "onboardProfiles",
+        "presentSplashScreen",
+        "receiverPairing",
+        "scrollControls"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "scrollControls": {
+          "scrollUp": 15,
+          "scrollDown": 14
+        },
+        "mouseButtonControls": {
+          "buttonCount": 13
+        },
+        "batteryStatus": true,
+        "hostRemovalSupport": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g703",
+      "name": "G703",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c087"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4070"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4070",
+        "046d_c087"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "chargepadCompatible",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "angleSnapping": true,
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "g703_ext1",
+          "name": "g703_ext1",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g703_hero",
+      "name": "G703 LIGHTSPEED",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c090"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4086"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aaf6"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4086",
+        "046d_aaf6",
+        "046d_c090"
+      ],
+      "capabilities": [
+        "chargepadCompatible",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g900",
+      "name": "G900",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c081"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4053"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aaba"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4053",
+        "046d_aaba",
+        "046d_c081"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "dpiLighting",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "maskableZones",
+        "onboardCycleId",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "angleSnapping": true,
+        "batteryStatus": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g903",
+      "name": "G903",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c086"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4067"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aad8"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4067",
+        "046d_aad8",
+        "046d_c086"
+      ],
+      "capabilities": [
+        "angleSnapping",
+        "chargepadCompatible",
+        "dpiLighting",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "maskableZones",
+        "onboardCycleId",
+        "onboardProfiles",
+        "receiverPairing",
+        "requiresBackupForDfu"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "angleSnapping": true,
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0002.json"
+      }
+    },
+    {
+      "modelId": "g903_hero",
+      "name": "G903 LIGHTSPEED",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c091"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4087"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aaf7"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4087",
+        "046d_aaf7",
+        "046d_c091"
+      ],
+      "capabilities": [
+        "chargepadCompatible",
+        "dpiLighting",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "maskableZones",
+        "onboardCycleId",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "mx518",
+      "name": "MX518",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c08e"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c08e"
+      ],
+      "capabilities": [
+        "dpiTableOverride",
+        "inputSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "dpiTable": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 800,
+          "activeDpi": 1600
+        },
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "dpiLevels": [
+          400,
+          800,
+          1600,
+          3200
+        ],
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "pro_mouse",
+      "name": "PRO",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c085"
+        }
+      ],
+      "interfaceIds": [
+        "046d_c085"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "pro_mouse_ext1",
+          "name": "PRO Gaming Mouse Battlefield 1 Edition",
+          "extendedModel": 1
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "pro_mouse_hero",
+      "name": "PRO HERO",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c08c"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aae7"
+        }
+      ],
+      "interfaceIds": [
+        "046d_aae7",
+        "046d_c08c"
+      ],
+      "capabilities": [
+        "inputSupport",
+        "lightingSupport",
+        "onboardProfiles",
+        "requiresBackupForDfu"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "pro_wireless_mouse",
+      "name": "PRO WIRELESS",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c088"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4079"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_aadf"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4079",
+        "046d_aadf",
+        "046d_c088"
+      ],
+      "capabilities": [
+        "chargepadCompatible",
+        "dpiLighting",
+        "hasBatteryStatus",
+        "inputSupport",
+        "lightingSupport",
+        "maskableZones",
+        "onboardProfiles",
+        "receiverPairing"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS1",
+          "pairingAction": "ACTION_POWER_CYCLE"
+        },
+        "batteryStatus": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [
+          "BREATHING",
+          "CYCLE",
+          "FIXED",
+          "OFF"
+        ],
+        "lightingZones": [
+          {
+            "type": "ZONE_PRIMARY",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          },
+          {
+            "type": "ZONE_BRANDING",
+            "supportedEffects": [
+              "OFF",
+              "FIXED",
+              "CYCLE",
+              "BREATHING"
+            ]
+          }
+        ],
+        "lightingCategory": "MOUSE_RGB_ZONAL"
+      },
+      "variants": [
+        {
+          "modelId": "pro_wireless_mouse_ext15",
+          "name": "pro_wireless_mouse_ext15",
+          "extendedModel": 15
+        },
+        {
+          "modelId": "pro_wireless_mouse_ext16",
+          "name": "PRO WIRELESS LOL",
+          "extendedModel": 16
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    },
+    {
+      "modelId": "pro_x_wireless_mouse",
+      "name": "PRO X SUPERLIGHT",
+      "type": "MOUSE",
+      "catalogKnown": true,
+      "hardwareSupport": "unverified",
+      "interfaces": [
+        {
+          "type": "DEVIO",
+          "id": "046d_c094"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_4093"
+        },
+        {
+          "type": "DEVIO",
+          "id": "046d_ab00"
+        }
+      ],
+      "interfaceIds": [
+        "046d_4093",
+        "046d_ab00",
+        "046d_c094"
+      ],
+      "capabilities": [
+        "chargepadCompatible",
+        "dpiIndicatorLed",
+        "hasBatteryStatus",
+        "inputSupport",
+        "onboardProfiles",
+        "receiverPairing",
+        "unifiedBattery"
+      ],
+      "settings": {
+        "onboardProfiles": {
+          "supportsOnboardMode": true
+        },
+        "receiverPairing": {
+          "receiverType": "LS2",
+          "pairingAction": "ACTION_POWER_CYCLE",
+          "hasForcePairing": true
+        },
+        "batteryStatus": true,
+        "unifiedBattery": true,
+        "chargepadCompatible": true,
+        "onboardMode": true,
+        "supportedInputCategories": [
+          "MOUSE_BUTTON"
+        ],
+        "supportedLayers": [
+          "LAYER_BASE",
+          "LAYER_G"
+        ],
+        "layerConfiguration": true,
+        "supportedEffects": [],
+        "lightingZones": []
+      },
+      "variants": [
+        {
+          "modelId": "pro_x_wireless_mouse_ext1",
+          "name": "pro_x_wireless_mouse_ext1",
+          "extendedModel": 1
+        },
+        {
+          "modelId": "pro_x_wireless_mouse_ext2",
+          "name": "pro_x_wireless_mouse_ext2",
+          "extendedModel": 2
+        },
+        {
+          "modelId": "pro_x_wireless_mouse_ext3",
+          "name": "pro_x_wireless_mouse_ext3",
+          "extendedModel": 3
+        },
+        {
+          "modelId": "pro_x_wireless_mouse_ext4",
+          "name": "pro_x_wireless_mouse_ext4",
+          "extendedModel": 4
+        },
+        {
+          "modelId": "pro_x_wireless_mouse_ext5",
+          "name": "pro_x_wireless_mouse_ext5",
+          "extendedModel": 5
+        }
+      ],
+      "source": {
+        "file": "devices/devices_0001.json"
+      }
+    }
+  ]
+}

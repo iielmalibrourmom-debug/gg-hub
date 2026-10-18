@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=GG HUB
+Comment=Configure Logitech gaming mice and keyboards
+Comment[zh_CN]=配置罗技游戏鼠标与键盘
+Exec=gg-hub
+Icon=gg-hub
+Terminal=false
+Categories=Settings;HardwareSettings;Utility;
+Keywords=Logitech;mouse;keyboard;DPI;gaming;
+StartupNotify=true
+StartupWMClass=gg-hub

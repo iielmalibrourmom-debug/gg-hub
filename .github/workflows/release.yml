@@ -1,0 +1,99 @@
+name: Linux release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Check release version
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          node -e 'const p=require("./package.json"); if(process.env.RELEASE_TAG !== "v"+p.version) throw new Error("Tag must match package.json version");'
+      - name: Install dependencies
+        run: |
+          npm ci
+          python3 -m pip install -r backend/requirements.txt
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y dbus-daemon
+      - name: Test application
+        run: |
+          npm run build
+          npm test
+          PYTHONPATH=backend dbus-run-session -- bash -c 'export DBUS_SYSTEM_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS"; python3 -m unittest discover -s backend/tests -v'
+          npx playwright install --with-deps chromium
+          npm run test:ui
+      - name: Build Linux x64 AppImage and tar archive
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+        run: npm run dist:linux -- --x64
+      - name: Create checksums
+        working-directory: release
+        run: sha256sum -- *.AppImage *.tar.gz > SHA256SUMS
+      - uses: actions/upload-artifact@v5
+        with:
+          name: linux-release
+          path: |
+            release/*.AppImage
+            release/*.tar.gz
+            release/SHA256SUMS
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
+
+  publish:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v5
+        with:
+          name: linux-release
+          path: release
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          cat > release/RELEASE_NOTES.md <<'NOTES'
+          Independent Linux configurator for Logitech gaming mice and keyboards.
+
+          AppImage and tar files bundle Electron and backend source. Host Python 3,
+          dbus-next, and the relevant ratbagd/Solaar drivers are still required.
+          Local macros additionally require evdev and uinput access.
+
+          This release passed automated software checks. Physical hardware support
+          has not been validated; available controls depend on the installed driver.
+          Design preview uses sample data and does not control devices.
+          NOTES
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" release/*.AppImage release/*.tar.gz release/SHA256SUMS --clobber
+          else
+            gh release create "$RELEASE_TAG" release/*.AppImage release/*.tar.gz release/SHA256SUMS --verify-tag --title "GG HUB $RELEASE_TAG" --notes-file release/RELEASE_NOTES.md
+          fi

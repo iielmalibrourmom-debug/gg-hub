@@ -1,0 +1,55 @@
+# Local snapshot recipe. Create gg-hub-0.1.0.tar.gz beside this file as documented
+# in README.md. The first npm/Electron build needs network access.
+pkgname=gg-hub
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='Independent Linux configurator for Logitech gaming mice and keyboards'
+arch=('x86_64')
+url='https://github.com/iielmalibrourmom-debug/gg-hub'
+license=('MIT')
+depends=(
+  'alsa-lib' 'at-spi2-core' 'cairo' 'cups' 'dbus' 'expat' 'gcc-libs'
+  'glib2' 'glibc' 'gtk3' 'libdrm' 'libx11' 'libxcb' 'libxcomposite'
+  'libxdamage' 'libxext' 'libxfixes' 'libxkbcommon' 'libxrandr' 'mesa'
+  'nspr' 'nss' 'pango' 'python' 'python-dbus-next'
+)
+makedepends=('nodejs>=22' 'npm')
+optdepends=(
+  'libratbag: mouse configuration through ratbagd'
+  'solaar: supported HID++ settings and battery readings'
+  'python-evdev: local uinput macro playback'
+  'xorg-xprop: automatic profile switching in X11 sessions'
+)
+options=('!strip' '!debug')
+source=("gg-hub-${pkgver}.tar.gz")
+# This is a user-created local source snapshot, not a downloaded release archive.
+# Replace SKIP with your snapshot hash if you need a pinned local build.
+sha256sums=('SKIP')
+
+build() {
+  cd "$srcdir/gg-hub-$pkgver"
+  export ELECTRON_CACHE="$srcdir/.electron-cache"
+  export ELECTRON_BUILDER_CACHE="$srcdir/.electron-builder-cache"
+  export npm_config_cache="$srcdir/.npm-cache"
+  npm ci
+  npm run build
+  npm exec -- electron-builder --linux --x64 --dir --publish never
+}
+
+package() {
+  cd "$srcdir/gg-hub-$pkgver"
+  install -d "$pkgdir/usr/lib/gg-hub" "$pkgdir/usr/bin"
+  cp -a release/linux-unpacked/. "$pkgdir/usr/lib/gg-hub/"
+  # Use Chromium's user-namespace sandbox; do not install a setuid helper.
+  if [[ -f "$pkgdir/usr/lib/gg-hub/chrome-sandbox" ]]; then
+    chmod 0755 "$pkgdir/usr/lib/gg-hub/chrome-sandbox"
+  fi
+  printf '%s\n' '#!/bin/sh' 'exec /usr/lib/gg-hub/gg-hub "$@"' > "$pkgdir/usr/bin/gg-hub"
+  chmod 0755 "$pkgdir/usr/bin/gg-hub"
+  install -Dm644 packaging/gg-hub.desktop "$pkgdir/usr/share/applications/gg-hub.desktop"
+  install -Dm644 packaging/gg-hub.png "$pkgdir/usr/share/icons/hicolor/512x512/apps/gg-hub.png"
+  # Inactive: the user can install this under /etc/udev/rules.d for macros.
+  install -Dm644 packaging/70-gg-hub-uinput.rules "$pkgdir/usr/share/gg-hub/70-gg-hub-uinput.rules"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+}

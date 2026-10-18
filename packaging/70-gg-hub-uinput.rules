@@ -1,0 +1,3 @@
+# Optional macro playback: access for the active local session only.
+# Install before 73-seat-late.rules so its uaccess ACL processing sees this tag.
+SUBSYSTEM=="misc", KERNEL=="uinput", TAG+="uaccess"
